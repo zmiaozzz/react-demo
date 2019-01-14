@@ -18,15 +18,12 @@ module.exports = merge(common, {
         proxy: {
             // '/api': {
             //     target: 'http://localhost:3000',
-            //     // pathRewrite: {'^/api' : ''}
+            //     pathRewrite: {'^/api' : ''}
             // },
             // '/api': {
-            //     target: 'https://console.bce.baidu.com/',
+            //     target: 'https://a.b.com/',
             //     secure: false,
-            //     // changeOrigin: true,
-            //     headers: {
-            //         Host: 'console.bce.baidu.com',
-            //     }
+            //     changeOrigin: true,
             // }
         }
     },
